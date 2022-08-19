@@ -1,9 +1,9 @@
 // code your solution here
 
 
-    function superbowlWin(record)
+function superbowlWin(record)
 
-{
+    {
     // const found = array1.find(element => element > 10); -- syntax
     let result = record.find( record => record.result === "W" );
 
@@ -13,7 +13,7 @@
     return sadReality;
 
   
-}
+    }
 
 superbowlWin()
 
